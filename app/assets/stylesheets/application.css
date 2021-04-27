@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+body {
+    background-color: white;
+    padding: 25px;
+}
+footer {
+    padding: 35px;
+    background-color: #333333;
+    color: #CCCCCC;
+}
+
+.nav__link {
+    padding-right: 35px;
+}
+nav {
+    background-color: #333333;
+    padding: 35px;
+}
+a:hover {
+    color: aqua;
+}
+a:visited {
+    color: white;
+}
+
