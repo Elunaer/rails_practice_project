@@ -22,7 +22,9 @@ footer {
     background-color: #333333;
     color: #CCCCCC;
 }
-
+nav a {
+    color: white;
+}
 .nav__link {
     padding-right: 35px;
 }
@@ -33,7 +35,8 @@ nav {
 a:hover {
     color: aqua;
 }
-a:visited {
-    color: white;
+text {
+    color: #2E2F30;
 }
+
 

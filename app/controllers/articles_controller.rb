@@ -8,6 +8,7 @@ class ArticlesController < ApplicationController
 
   # GET /articles/1 or /articles/1.json
   def show
+    set_article
   end
 
   # GET /articles/new
@@ -17,6 +18,7 @@ class ArticlesController < ApplicationController
 
   # GET /articles/1/edit
   def edit
+    set_article
   end
 
   # POST /articles or /articles.json
