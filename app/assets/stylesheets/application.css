@@ -8,15 +8,20 @@
 body {
     background-color: white;
     padding: 25px;
+
 }
 footer {
     padding: 35px;
-    background-color: #333333;
-    color: #CCCCCC;
+    background-color: dimgrey;
+    background-size: 100%;
+    opacity: 0.6;
+    color: black;
+    text-align: center;
 }
-nav a {
-    color: white;
+.footer__text {
+    background: transparent;
 }
+
 .nav__link {
     padding-right: 35px;
 }
@@ -35,7 +40,6 @@ body, p, ol, ul, td {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px; }
-
 pre {
     background-color: #eee;
     padding: 10px;
@@ -93,5 +97,3 @@ div.actions {
 
 label {
     display: block; }
-
-
